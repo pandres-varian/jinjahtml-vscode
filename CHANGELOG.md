@@ -1,4 +1,9 @@
 # Change Log
+## [0.0.1] - 2023-09-14
+- Included YAML string support
+- Change start and of block to punctuation scope
+
+# Change Log (Original Repo)
 
 ## [0.20] - 2023-01-23
 

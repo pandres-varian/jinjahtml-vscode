@@ -12,3 +12,7 @@ motd:
     - name: /etc/motd.tail
     {% endif %}
     - source: salt://motd
+    - inline: "{{ variable }}"
+    - inline: {{ variable }}
+    - inline: | 
+    {{ variable }}

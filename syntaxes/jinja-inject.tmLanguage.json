@@ -1,0 +1,11 @@
+{
+  "name": "jinja-inject-yaml",
+  "injectionSelector": "string.quoted.double.yaml,string.quoted.single.yaml,string.unquoted.block.yaml,string.unquoted.block.yaml,string.unquoted.plain.out.yaml",
+  "scopeName": "injected.yaml.jinja",
+  "comment": "Jinja Injected in YAML strings",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    }
+  ]
+}

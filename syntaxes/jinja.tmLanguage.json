@@ -9,13 +9,13 @@
       "begin": "({%)\\s*(raw)\\s*(%})",
       "captures": {
         "1": {
-          "name": "entity.other.jinja.delimiter.tag"
+          "name": "punctuation.entity.other.jinja.delimiter.tag"
         },
         "2": {
           "name": "keyword.control.jinja"
         },
         "3": {
-          "name": "entity.other.jinja.delimiter.tag"
+          "name": "punctuation.entity.other.jinja.delimiter.tag"
         }
       },
       "end": "({%)\\s*(endraw)\\s*(%})",
@@ -28,7 +28,7 @@
       "begin": "{{-?",
       "captures": [
         {
-          "name": "variable.entity.other.jinja.delimiter"
+          "name": "punctuation.other.jinja.delimiter"
         }
       ],
       "end": "-?}}",

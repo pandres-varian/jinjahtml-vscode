@@ -2,7 +2,11 @@
 
 Syntax highlighting for jinja(2) including HTML, Markdown, YAML and other templates.
 
-![IDE](https://raw.githubusercontent.com/samuelcolvin/jinjahtml-vscode/main/screenshot.png)
+This is a fork from Samuel Colvin's [Better Jinja](https://github.com/samuelcolvin/jinjahtml-vscode) extension. 
+
+![IDE](https://raw.githubusercontent.com/pandres-varian/jinjahtml-vscode/main/screenshot.png)
+
+![YAML extended IDE](https://raw.githubusercontent.com/pandres-varian/jinjahtml-vscode/main/screenshot-yaml.png)
 
 ## Languages:
 

@@ -1,10 +1,10 @@
 {
-  "name": "jinjahtml",
-  "displayName": "Better Jinja",
+  "name": "varian-jinja",
+  "displayName": "Varian Jinja",
   "description": "Syntax highlighting for jinja(2) including HTML, Markdown, YAML, Ruby and LaTeX templates",
-  "version": "0.20.0",
-  "publisher": "samuelcolvin",
-  "author": "Samuel Colvin",
+  "version": "0.0.1",
+  "publisher": "varian",
+  "author": "Pedro Andrés Blanco <pedro.andresblanco@varian.com>",
   "engines": {
     "vscode": "^1.22.0"
   },
@@ -22,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/samuelcolvin/jinjahtml-vscode.git"
+    "url": "https://github.com/pandres-varian/jinjahtml-vscode.git"
   },
   "main": "./src/extension.js",
   "scripts": {
@@ -557,6 +557,13 @@
         "language": "jinja-yaml",
         "scopeName": "text.yaml.jinja",
         "path": "./syntaxes/jinja-yaml.tmLanguage.json"
+      },
+      {
+        "scopeName": "injected.yaml.jinja",
+        "injectTo": [
+          "text.yaml.jinja"
+        ],
+        "path": "./syntaxes/jinja-inject.tmLanguage.json"
       },
       {
         "language": "jinja-toml",
